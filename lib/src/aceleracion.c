@@ -1,3 +1,4 @@
+#include "../include/fisica.h"
 /** @brief Calcula la división entre 2 double de 64-bit sin signo para obtener la aceleración
  *  @param velocidad Dato de tipo double, representa la velocidad en metros/segundos
  *  @param tiempo Dato de tipo double, representa el tiempo en segundos

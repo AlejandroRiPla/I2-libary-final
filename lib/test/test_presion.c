@@ -2,26 +2,26 @@
 #include <stdio.h>
 
 /** @brief Calcula la presion ejercida sobre cuerpo en N/m^2
- *  @param fuerza Normal force
- *  @param area Surface area
- *  @returns fuerza/area
+ *  @param fuerza Fuerza normal en Newtons (N)
+ *  @param area Áre de la superficie en m^2
+ *  @returns double fuerza/area en N/m^2
  */
 double presion(double fuerza, double area)
 {
     return fuerza/area;
 }
 
-//Main function
+//Funcion principal
 int main(){
 double f, a,res;
-//Request data
+//Pide datos
 printf("Calcula la presion\nIntroduce la fuerza: ");
 scanf("%lf", &f);
 printf(" \nIntroduce el area: ");
 scanf("%lf", &a);
-//Call the function
+//Llama a la funcion
 res = presion(f, a);
-//Show result
+//Muestra resultados
 printf("presion = %lf N/m^2", res);
    return 0;
 }

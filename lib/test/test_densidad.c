@@ -1,27 +1,27 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/** @brief Calculates the density of a body in kg/m^3
- *  @param masa Mass
- *  @param volumen  Volume
- *  @returns masa/volumen
+/** @brief Calcula la densidad de un cuerpo en kg/m^3
+ *  @param masa Masa de un cuerpo en kg 
+ *  @param volumen  Volumen de un cuerpo en m^3
+ *  @returns double masa/volumen en kg/m^3
  */
 double densidad(double masa, double volumen)
 {
     return masa/volumen;
 }
 
-//Main function
+//Funcion principal
 int main(){
 double m, v,res;
-//Request data
+//Pide datos
 printf("Calcula la densidad\nIntroduce la masa: ");
 scanf("%lf", &m);
 printf(" \nIntroduce el volumen: ");
 scanf("%lf", &v);
-//Call the function
+//Llama a la funcion 
 res = densidad(m, v);
-//Show result
+//Muestra el resultado
 printf("presion = %lf N/m^2", res);
    return 0;
 }

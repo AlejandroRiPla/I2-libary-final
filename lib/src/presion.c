@@ -1,4 +1,5 @@
-#include "..//include/fisica.h"
+#include "../include/fisica.h"
+
 /** @brief Calcula la presion ejercida sobre cuerpo en N/m^2
  *  @param fuerza Fuerza normal en Newtons (N)
  *  @param area Áre de la superficie en m^2

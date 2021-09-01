@@ -1,4 +1,4 @@
-#include "../include/lib.h"
+#include "../include/fisica.h"
 /** @brief Convierte grados Farenghet a Centigrados
  * @param f double Grados Farenheit
  * @returns c double Grados Centigrados

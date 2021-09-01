@@ -1,13 +1,14 @@
+#include "../include/lib.h"
 /**
-* @brief calculate potencial energy
-* @param masa first param
-* @param altura second param
-* @returns potencial energy
+* @brief calcula la energia potencial
+* @param masa  valor tipo double que representa la masa en kilogramo
+* @param altura valor de tipo double que representa la altura en metros
+* @returns regresa la energia potencial como double
 */
 double energiaPotencial(double masa, double altura){
 	
-	float gravedad = 9.8; //Declaracion e inicializacion de variable
-	float resultado; //Declaracion de variable
+	double gravedad = 9.8; //Declaracion e inicializacion de variable de tipo double
+	double resultado; //Declaracion de variable de tipo double
 	
 	resultado = masa * altura * gravedad; //Se calcula el resultado
 	

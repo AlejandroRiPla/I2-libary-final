@@ -2,10 +2,10 @@
 #include<stdio.h> 
 #include "../src/energiaCinetica.c"
 /**
-* @brief calculate kinetic energy
-* @param masa first param
-* @param velocidad second param
-* @returns kinetic energy
+* @brief calcula la energia cinetica
+* @param masa valor tipo double que representa la masa en kilogramo
+* @param velocidad valor de tipo double que representa la velocidad en metros/segundos
+* @returns regresa el valor de la energia cinetica como double
 */
 double energiaCinetica(double masa, double velocidad); //Declaración de la funcion
 

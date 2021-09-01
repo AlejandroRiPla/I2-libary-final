@@ -2,10 +2,10 @@
 #include<stdio.h>
 #include "../src/energiaPotencial.c"
 /**
-* @brief calculate potencial energy
-* @param masa first param
-* @param altura second param
-* @returns potencial energy
+* @brief calcula la energia potencial
+* @param masa  valor tipo double que representa la masa en kilogramo
+* @param altura valor de tipo double que representa la altura en metros
+* @returns regresa la energia potencial como double
 */
 double energiaPotencial(double masa, double altura); //Declaración de la funcion
 

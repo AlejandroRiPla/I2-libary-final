@@ -1,4 +1,4 @@
-#include "../include/lib.h"
+#include "../include/fisica.h"
 /**
 * @brief calcula la energia potencial
 * @param masa  valor tipo double que representa la masa en kilogramo

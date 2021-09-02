@@ -1,6 +1,7 @@
 /** Esta biblioteca contiene diferentes funciones para calcular diferentes magnitudes físicas..
  * Todas las funciones trabajan con variables de tipo double.
  * Autores:
+ * Jacobo Ramírez Noé
  * Rivera Plata Jesús Alejandro
  * Rivera Martínez Brian
  * Vazquez Cerritos Marco Alejandro
